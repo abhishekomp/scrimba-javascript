@@ -1,0 +1,2 @@
+This demo shows how to throw our own custom errors in the async function if we want to reject the promise.
+Remember that if the url is incorrect, the promise returned by async function will still get resolved. The promise will be rejected when there happens a network connection issue.

@@ -1,0 +1,5 @@
+[
+  { "movie": "Star Wars", "rating": 9 },
+  { "movie": "Christmas Chronicles", "rating": 8 },
+  { "movie": "Frozen", "rating": 9.5 }
+]

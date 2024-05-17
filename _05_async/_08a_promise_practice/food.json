@@ -1,0 +1,5 @@
+[
+  { "food": "Rice", "location": "Home" },
+  { "food": "Noodles", "location": "StreetFood" },
+  { "food": "Tacos", "location": "Restaurant" }
+]

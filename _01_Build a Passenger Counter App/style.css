@@ -1,0 +1,76 @@
+@import url("https://fonts.googleapis.com/css2?family=Poppins&display=swap");
+@import url('https://fonts.googleapis.com/css2?family=Balsamiq+Sans&display=swap');
+
+:root{
+  --primary-hsl: 200, 100%, 50%;
+  --primary-dark-hsl: 200, 100%, 6%;
+}
+
+body {
+  font-family: "Poppins", sans-serif;
+  font-weight: bold;
+  text-align: center;
+  color: white;
+  /* https://source.unsplash.com/1920x1080/?station,snow */
+  /* background-image: url("img/flam-1-2000x1200.jpg"); */
+  /* background-image: url("img/station_subway_underground_142686_1920x1200.jpg"); */
+  background-image: url("img/tram_street_city_1060962_1920x1200.jpg");
+  background-size: cover;
+  /* background-position: center;
+  background-repeat: no-repeat; */
+
+    /* center the counter container */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.container{
+  margin-top: 4rem;
+}
+
+.counter-container{
+  --color: hsl(var(--primary-dark-hsl), 0.7);
+  font-size: 2rem;
+  background-color: var(--color);
+  box-shadow: 0 0 15px 0 var(--color);
+  padding: 1em 1em;
+  width: 80%;
+  max-width: 600px;
+  border-radius: 2em;
+}
+
+h1{
+  margin: 0;
+}
+
+button {
+  border: none;
+  padding-top: 10px;
+  padding-bottom: 10px;
+  color: white;
+  font-weight: bold;
+  width: 300px;
+  font-size: 2rem;
+  margin-top: .5em;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+#increment-btn {
+  background-color: hsl(0, 100%, 50%, .6);
+}
+
+#increment-btn:hover,
+#increment-btn:focus{
+  background-color: hsl(0, 100%, 50%, .9);
+}
+
+#save-btn {
+  background-color: hsl(100, 100%, 50%, .6);
+}
+
+#save-btn:hover,
+#save-btn:focus{
+  background-color: hsl(100, 100%, 50%, .9);
+}
