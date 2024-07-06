@@ -1,11 +1,19 @@
 let countEl = document.getElementById("count-el");
 let visitorParagraphEl = document.getElementById("visitor-paragraph-el");
+let totalVisitorsEl = document.getElementById("total-visitors-el");
+
+let totalCntInitialStr =  totalVisitorsEl.textContent;
+//console.log(totalCntInitialStr);
+let totalCnt = 0;
+totalVisitorsEl.textContent += totalCnt;
 
 function increment_passenger_count(){
   let traveller_count = countEl.innerText;
   traveller_count++;
   countEl.innerText = traveller_count;
   console.log(traveller_count);
+  totalCnt++;
+  totalVisitorsEl.textContent = totalCntInitialStr + totalCnt;
 }
 
 function save_passenger_count(){
